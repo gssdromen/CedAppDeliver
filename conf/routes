@@ -1,0 +1,32 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+module:testrunner
+
+GET     /                                       Home.Index
+
+GET     /config                                 AliasConfig.AliasConfig
+POST    /config                                 AliasConfig.SaveAliasConfig
+
+GET     /upload/                                Upload.Index
+POST    /upload/                                Upload.Upload
+
+POST    /download/app_config                    Download.ExtraConfig
+GET     /download/:id                           Download.Index
+
+GET     /apps                                   App.Show
+GET     /apps/:id                               App.ShowForID
+GET     /:id                                    App.AllForID
+
+# URL for API
+POST    /api/upload/                            Upload.APIUpload
+
+# Ignore favicon requests
+GET     /favicon.ico                            404
+
+# Map static resources from the /app/public folder to the /public path
+GET     /public/*filepath                       Static.Serve("public")
+
+# Catch all
+*       /:controller/:action                    :controller.:action

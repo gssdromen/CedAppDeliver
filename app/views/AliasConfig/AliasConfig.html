@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>应用别名设置</title>
+
+    <!-- Bootstrap -->
+    <link href="/public/css/bootstrap-3.3.6.min.css" rel="stylesheet">
+
+    <style type="text/css">
+        p {
+            margin-left: 40px
+        }
+        
+        h1 {
+            margin-left: 20px
+        }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="table-responsive">
+            <table id="table" class="table table-striped">
+                <tr>
+                    <th>#</th>
+                    <th>应用名</th>
+                    <th>应用别名</th>
+                </tr>
+                {{ range $k, $v := .aliasModels }}
+                <tr>
+                    <td>{{ $k }}</td>
+                    <td><input type="text" value={{ $v.AppID }} /></td>
+                    <td><input type="text" value={{ $v.AppAlias }} /></td>
+                </tr>
+                {{ end }}
+            </table>
+        </div>
+        <button type="button" id="btn-add-recond" class="btn btn-primary">新增一条记录</button>
+        <button type="button" id="btn-save" class="btn btn-primary">保存</button>
+    </div>
+
+    <script src="/public/js/bootstrap-3.3.6.min.js"></script>
+    <script src="/public/js/jquery-2.2.4.min.js"></script>
+    <script src="/public/js/jquery.tabletojson.min.js"></script>
+
+    <script>
+        $(function() {
+            $("#btn-save").click(function() {
+                var list = new Array();
+                $("table tr:gt(0)").each(function(i, elem) {
+                    var model = new Object();
+                    model.appID = elem.children[1].firstChild.value;
+                    model.appAlias = elem.children[2].firstChild.value;
+                    list.push(model);
+                });
+
+                $.ajax({
+                    type: 'POST',
+                    url: "#",
+                    data: JSON.stringify(list),
+                    success: function() {
+                        alert("保存成功");
+                    }
+                });
+            });
+        });
+
+        $(function() {
+            $("#btn-add-recond").click(function() {
+                var line = $("#table tr:last td:eq(0)").text()
+                if (parseInt(line) == null) {
+                    var newRow = "<tr><td>0</td><td><input type='text'/></td><td><input type='text'/></td></tr>";
+                } else {
+                    var newRow = "<tr><td>" + (parseInt(line) + 1) + "</td><td><input type='text'/></td><td><input type='text'/></td></tr>";
+                }
+                $("#table tr:last").after(newRow);
+            });
+        });
+    </script>
+</body>
+
+</html>

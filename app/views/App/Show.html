@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>应用列表</title>
+
+    <!-- Bootstrap -->
+    <link href="/public/css/bootstrap-3.3.6.min.css" rel="stylesheet">
+
+    <style type="text/css">
+        p {
+            margin-left: 40px
+        }
+        
+        h1 {
+            margin-left: 20px
+        }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1>应用列表</h1>
+        <div class="table-responsive">
+            <p>iOS</p>
+            <table class="table table-striped">
+                <tr>
+                    <th>#</th>
+                    <th>应用名</th>
+                    <th>Bundle ID</th>
+                    <th>应用ID</th>
+                    <th>动作</th>
+                </tr>
+
+                {{ range $k, $v := .ipas }}
+                <tr>
+                    <td>{{ $k }}</td>
+                    <td>{{ $v.DisplayName }}</td>
+                    <td>{{ $v.BundleIdentifier }}</td>
+                    <td>{{ $v.AppID }}</td>
+                    <td><a href="/apps/{{ $v.AppID }}">查看所有</a></td>
+                </tr>
+                {{ end }}
+            </table>
+
+            <p>Android</p>
+            <table class="table table-striped">
+                <tr>
+                    <th>#</th>
+                    <th>应用名</th>
+                    <th>Bundle ID</th>
+                    <th>应用ID</th>
+                    <th>动作</th>
+                </tr>
+
+                {{ range $k, $v := .apks }}
+                <tr>
+                    <td>{{ $k }}</td>
+                    <td>{{ $v.DisplayName }}</td>
+                    <td>{{ $v.PackageName }}</td>
+                    <td>{{ $v.AppID }}</td>
+                    <td><a href="/apps/{{ $v.AppID }}">查看所有</a></td>
+                </tr>
+                {{ end }}
+            </table>
+        </div>
+    </div>
+
+    <script src="/public/js/bootstrap-3.3.6.min.js"></script>
+    <script src="/public/js/jquery-2.2.4.min.js"></script>
+</body>
+
+</html>

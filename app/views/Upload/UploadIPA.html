@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <title>Golang upload success</title>
+</head>
+
+<body>
+
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>App Download</title>
+
+    <!-- Bootstrap -->
+    <link href="/public/css/bootstrap-3.3.6.min.css" rel="stylesheet">
+
+    <style type="text/css">
+        p {
+            margin-left: 40px
+        }
+        
+        h1 {
+            margin-left: 20px
+        }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1>上传成功</h1>
+        <p>
+            <p>名称: {{.model.DisplayName}}({{.model.BundleIdentifier}}) v{{.model.Version}}</p>
+            <p>保存路径: {{.model.RelativeIPAPath}}</p>
+            <p>下载路径: <a href="./download/{{.model.RandomID}}">去下载</a></p>
+        </p>
+    </div>
+
+    <script src="/public/js/bootstrap-3.3.6.min.js"></script>
+    <script src="/public/js/jquery-2.2.4.min.js"></script>
+
+    <script type="text/javascript">
+        // $.ajax({
+        //     type: 'POST',
+        //     url: "https://oapi.dingtalk.com/robot/send?access_token=fb41c7a0525da6e3668188c7567c8e8dd2618651782687e21f6d91d21f4d4fdf",
+        //     contentType: "application/json; charset=UTF-8",
+        //     data: "{\"msgtype\": \"text\", \"text\": {\"content\": \"iOS上传新包啦，下载地址：https://10.12.12.10/ddjj\"}}"
+        // });
+
+        $.ajax({
+            type: "post",    //请求方式
+            async:true,    //是否异步
+            url:"https://oapi.dingtalk.com/robot/send?access_token=fb41c7a0525da6e3668188c7567c8e8dd2618651782687e21f6d91d21f4d4fdf",
+            dataType:"jsonp",    //跨域json请求一定是jsonp
+            jsonp: "callbackparam",    //跨域请求的参数名，默认是callback
+                //jsonpCallback:"successCallback",    //自定义跨域参数值，回调函数名也是一样，默认为jQuery自动生成的字符串
+            data:"{\"msgtype\": \"text\", \"text\": {\"content\": \"iOS上传新包啦，下载地址：https://10.12.12.10/ddjj\"}}",    //请求参数
+
+            beforeSend: function() {
+                //请求前的处理
+            },
+
+            success: function(data) {
+                //请求成功处理，和本地回调完全一样
+            },
+
+            complete: function() {
+                //请求完成的处理
+            },
+
+            error: function() {
+                //请求出错处理
+            }
+        });
+        // $.ajax({
+        //     type: 'POST',
+        //     dataType : "json",
+        //     contentType: "application/json; charset=UTF-8",
+        //     url: "https://oapi.dingtalk.com/robot/send?access_token=fb41c7a0525da6e3668188c7567c8e8dd2618651782687e21f6d91d21f4d4fdf",
+        //     data: '{"msgtype": "text", "text": {"content": "iOS上传新包啦，下载地址：https://10.12.12.10/ddjj"},"at": {"atMobiles": ["13585551961", "13661900763"], "isAtAll": false}}',
+        //     success: function() {
+        //         // alert("保存成功");
+        //     }
+        // });
+    </script>
+</body>
+
+</html>

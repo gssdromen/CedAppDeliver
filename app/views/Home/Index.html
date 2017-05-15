@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome</title>
+
+    <!-- Bootstrap -->
+    <link href="/public/css/bootstrap-3.3.6.min.css" rel="stylesheet">
+
+    <style type="text/css">
+        p {
+            margin-left: 40px
+        }
+        
+        h1 {
+            margin-left: 20px
+        }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1>Welcome</h1>
+        <p>
+            iOS企业包分发需要使用https链接</br>
+            官方CA签发证书要钱而且只能是公网地址</br>
+            所以我只能采用自签发证书的方式</br>
+            iOS10.X请去 Settings > General > About > Certificate Trust Testings 中信任根证书</br>
+        </p>
+        <p><a href="/{{ .params.cerAddr }}" class="btn btn-primary btn-lg" role="button">一键安装证书</a></p>
+        <p><a href="/upload" class="btn btn-primary btn-lg" role="button">去上传</a></p>
+        <p><a href="/apps" class="btn btn-primary btn-lg" role="button">应用列表</a></p>
+
+        <h2>可通过如下命令上传：</h2>
+        <h3>curl -F file=@
+            <文件路径> https://10.12.12.10/api/upload</h3>
+        <h3>示例：curl -F file=@/Users/FDD/JingJiRen_Enterprise.ipa https://10.12.12.10/api/upload</h3>
+    </div>
+
+    <script src="/public/js/bootstrap-3.3.6.min.js"></script>
+    <script src="/public/js/jquery-2.2.4.min.js"></script>
+</body>
+
+</html>

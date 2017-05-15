@@ -1,0 +1,288 @@
+
+2017/04/17 10:42:15 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-17 10:42:15
+
+2017/04/17 22:59:15 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-17 22:59:15
+
+2017/04/17 22:59:37 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:133: IPA Web上传
+
+2017/04/17 22:59:37 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:134: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：8.2.2 | ShortVersion：8.2.2 | 创建时间：0001-01-01 00:00:00 | 修改时间：0001-01-01 00:00:00
+
+2017/04/17 23:02:40 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-17 23:02:40
+
+2017/04/17 23:05:55 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/aliasConfig.go:20: AliasConfig 显示别名页面
+
+2017/04/29 23:07:35 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-29 23:07:35
+
+2017/04/29 23:07:53 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: Can not find Info.plist in app folder
+
+2017/04/29 23:07:53 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:134: IPA Web上传
+
+2017/04/29 23:07:53 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:135: 应用名： | BundleID： | Version： | ShortVersion： | 创建时间：2017-04-29 23:07:53 | 修改时间：2017-04-29 23:07:53
+
+2017/04/29 23:15:51 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-29 23:15:51
+
+2017/04/29 23:15:59 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: Can not find Info.plist in app folder
+
+2017/04/29 23:15:59 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:134: IPA Web上传
+
+2017/04/29 23:15:59 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:135: 应用名： | BundleID： | Version： | ShortVersion： | 创建时间：2017-04-29 23:15:59 | 修改时间：2017-04-29 23:15:59
+
+2017/04/29 23:19:15 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-29 23:19:15
+
+2017/04/29 23:19:20 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: Can not find Info.plist in app folder
+
+2017/04/29 23:19:21 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:134: IPA Web上传
+
+2017/04/29 23:19:21 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:135: 应用名： | BundleID： | Version： | ShortVersion： | 创建时间：2017-04-29 23:19:21 | 修改时间：2017-04-29 23:19:21
+
+2017/04/29 23:21:02 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: Can not find Info.plist in app folder
+
+2017/04/29 23:21:02 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:134: IPA Web上传
+
+2017/04/29 23:21:02 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:135: 应用名： | BundleID： | Version： | ShortVersion： | 创建时间：2017-04-29 23:21:02 | 修改时间：2017-04-29 23:21:02
+
+2017/04/29 23:21:28 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-29 23:21:28
+
+2017/04/29 23:25:15 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-29 23:25:15
+
+2017/04/29 23:25:16 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: plist: error parsing text property list: unexpected non-quotable character at root level
+
+2017/04/29 23:25:16 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:134: IPA Web上传
+
+2017/04/29 23:25:16 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:135: 应用名： | BundleID： | Version： | ShortVersion： | 创建时间：2017-04-29 23:25:16 | 修改时间：2017-04-29 23:25:16
+
+2017/04/29 23:28:18 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-29 23:28:18
+
+2017/04/29 23:28:19 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: plist: error parsing text property list: unexpected non-quotable character at root level
+
+2017/04/29 23:28:19 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:134: IPA Web上传
+
+2017/04/29 23:28:19 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:135: 应用名： | BundleID： | Version： | ShortVersion： | 创建时间：2017-04-29 23:28:19 | 修改时间：2017-04-29 23:28:19
+
+2017/04/29 23:32:08 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-29 23:32:08
+
+2017/04/29 23:32:09 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: plist: error parsing text property list: unexpected non-quotable character at root level
+
+2017/04/29 23:32:09 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:134: IPA Web上传
+
+2017/04/29 23:32:09 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:135: 应用名： | BundleID： | Version： | ShortVersion： | 创建时间：2017-04-29 23:32:09 | 修改时间：2017-04-29 23:32:09
+
+2017/04/29 23:33:49 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-29 23:33:49
+
+2017/04/29 23:33:52 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: Can not find Info.plist in app folder
+
+2017/04/29 23:33:52 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:134: IPA Web上传
+
+2017/04/29 23:33:52 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:135: 应用名： | BundleID： | Version： | ShortVersion： | 创建时间：2017-04-29 23:33:52 | 修改时间：2017-04-29 23:33:52
+
+2017/04/29 23:36:16 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-29 23:36:16
+
+2017/04/29 23:36:17 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: Can not find Info.plist in app folder
+
+2017/04/29 23:36:17 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:134: IPA Web上传
+
+2017/04/29 23:36:17 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:135: 应用名： | BundleID： | Version： | ShortVersion： | 创建时间：2017-04-29 23:36:17 | 修改时间：2017-04-29 23:36:17
+
+2017/04/29 23:37:32 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-29 23:37:32
+
+2017/04/29 23:37:33 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: Can not find Info.plist in app folder
+
+2017/04/29 23:37:33 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:134: IPA Web上传
+
+2017/04/29 23:37:33 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:135: 应用名： | BundleID： | Version： | ShortVersion： | 创建时间：2017-04-29 23:37:33 | 修改时间：2017-04-29 23:37:33
+
+2017/04/29 23:37:47 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-29 23:37:47
+
+2017/04/29 23:37:59 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: Can not find Info.plist in app folder
+
+2017/04/29 23:37:59 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:134: IPA Web上传
+
+2017/04/29 23:37:59 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:135: 应用名： | BundleID： | Version： | ShortVersion： | 创建时间：2017-04-29 23:37:59 | 修改时间：2017-04-29 23:37:59
+
+2017/04/29 23:39:58 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-29 23:39:58
+
+2017/04/29 23:39:59 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: Can not find Info.plist in app folder
+
+2017/04/29 23:39:59 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:134: IPA Web上传
+
+2017/04/29 23:39:59 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:135: 应用名： | BundleID： | Version： | ShortVersion： | 创建时间：2017-04-29 23:39:59 | 修改时间：2017-04-29 23:39:59
+
+2017/04/29 23:52:23 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-29 23:52:23
+
+2017/04/29 23:52:31 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: Can not find Info.plist in app folder
+
+2017/04/29 23:52:31 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:134: IPA Web上传
+
+2017/04/29 23:52:31 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:135: 应用名： | BundleID： | Version： | ShortVersion： | 创建时间：2017-04-29 23:52:31 | 修改时间：2017-04-29 23:52:31
+
+2017/04/29 23:56:32 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-29 23:56:32
+
+2017/04/29 23:56:33 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: Can not find Info.plist in app folder
+
+2017/04/29 23:56:33 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:134: IPA Web上传
+
+2017/04/29 23:56:33 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:135: 应用名： | BundleID： | Version： | ShortVersion： | 创建时间：2017-04-29 23:56:33 | 修改时间：2017-04-29 23:56:33
+
+2017/04/30 14:22:19 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-30 14:22:19
+
+2017/04/30 14:22:30 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: Can not find Info.plist in app folder
+
+2017/04/30 14:22:30 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:134: IPA Web上传
+
+2017/04/30 14:22:30 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:135: 应用名： | BundleID： | Version： | ShortVersion： | 创建时间：2017-04-30 14:22:30 | 修改时间：2017-04-30 14:22:30
+
+2017/04/30 23:24:34 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-04-30 23:24:34
+
+2017/04/30 23:25:08 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:140: IPA Web上传
+
+2017/04/30 23:25:08 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:141: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：8.2.2 | ShortVersion：8.2.2 | 创建时间：2017-04-30 23:25:08 | 修改时间：2017-04-30 23:25:08
+
+2017/05/01 00:02:55 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-01 00:02:55
+
+2017/05/01 00:03:05 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:140: IPA Web上传
+
+2017/05/01 00:03:05 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:141: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：8.2.2 | ShortVersion：8.2.2 | 创建时间：2017-05-01 00:03:05 | 修改时间：2017-05-01 00:03:05
+
+2017/05/02 21:34:08 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-02 21:34:08
+
+2017/05/02 21:55:16 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:143: IPA Web上传
+
+2017/05/02 21:55:16 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:144: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：8.2.2 | ShortVersion：8.2.2 | 创建时间：2017-05-02 21:55:16 | 修改时间：2017-05-02 21:55:16
+
+2017/05/02 22:13:08 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-02 22:13:08
+
+2017/05/02 22:26:19 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-02 22:26:19
+
+2017/05/02 22:26:27 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: rename /Users/cedricwu/Workspace/Go/src/CedAppDeliver/public/ipa/QHhy9.ipa.png public/ipa/com.fangdd.jingjiren/com.fangdd.jingjiren.png: no such file or directory
+
+2017/05/02 22:26:27 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/05/02 22:26:27 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：8.2.2 | ShortVersion：8.2.2 | 创建时间：2017-05-02 22:26:27 | 修改时间：2017-05-02 22:26:27
+
+2017/05/02 22:26:42 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: rename /Users/cedricwu/Workspace/Go/src/CedAppDeliver/public/ipa/WSbCw.ipa.png public/ipa/com.fangdd.jingjiren/com.fangdd.jingjiren.png: no such file or directory
+
+2017/05/02 22:26:42 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/05/02 22:26:42 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：8.2.2 | ShortVersion：8.2.2 | 创建时间：2017-05-02 22:26:42 | 修改时间：2017-05-02 22:26:42
+
+2017/05/02 22:28:41 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: rename /Users/cedricwu/Workspace/Go/src/CedAppDeliver/public/ipa/ohYOv.ipa.png public/ipa/com.fangdd.jingjiren/com.fangdd.jingjiren.png: no such file or directory
+
+2017/05/02 22:28:41 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/05/02 22:28:41 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：8.2.2 | ShortVersion：8.2.2 | 创建时间：2017-05-02 22:28:41 | 修改时间：2017-05-02 22:28:41
+
+2017/05/02 22:29:19 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-02 22:29:19
+
+2017/05/02 22:29:20 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: rename /Users/cedricwu/Workspace/Go/src/CedAppDeliver/public/ipa/y1LDp.ipa.png public/ipa/com.fangdd.jingjiren/com.fangdd.jingjiren.png: no such file or directory
+
+2017/05/02 22:29:20 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/05/02 22:29:20 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：8.2.2 | ShortVersion：8.2.2 | 创建时间：2017-05-02 22:29:20 | 修改时间：2017-05-02 22:29:20
+
+2017/05/02 22:34:27 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: rename /Users/cedricwu/Workspace/Go/src/CedAppDeliver/public/ipa/4n01d.ipa.png public/ipa/com.fangdd.jingjiren/com.fangdd.jingjiren.png: no such file or directory
+
+2017/05/02 22:34:27 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/05/02 22:34:27 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：8.2.2 | ShortVersion：8.2.2 | 创建时间：2017-05-02 22:34:27 | 修改时间：2017-05-02 22:34:27
+
+2017/05/02 22:34:44 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-02 22:34:44
+
+2017/05/02 22:34:47 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/05/02 22:34:47 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：8.2.2 | ShortVersion：8.2.2 | 创建时间：2017-05-02 22:34:47 | 修改时间：2017-05-02 22:34:47
+
+2017/05/02 22:36:15 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-02 22:36:15
+
+2017/05/02 22:36:26 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: remove /Users/cedricwu/Workspace/Go/src/CedAppDeliver/public/ipa/e0mCE.ipa.png: no such file or directory
+
+2017/05/02 22:36:26 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/05/02 22:36:26 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：8.2.2 | ShortVersion：8.2.2 | 创建时间：2017-05-02 22:36:26 | 修改时间：2017-05-02 22:36:26
+
+2017/05/02 22:38:09 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-02 22:38:09
+
+2017/05/02 22:38:14 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: remove /Users/cedricwu/Workspace/Go/src/CedAppDeliver/public/ipa/SwmA8.ipa.png: no such file or directory
+
+2017/05/02 22:38:14 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/05/02 22:38:14 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：8.2.2 | ShortVersion：8.2.2 | 创建时间：2017-05-02 22:38:14 | 修改时间：2017-05-02 22:38:14
+
+2017/05/02 22:39:40 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-02 22:39:40
+
+2017/05/02 22:39:41 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: remove /Users/cedricwu/Workspace/Go/src/CedAppDeliver/public/ipa/BoINe.ipa.png: no such file or directory
+
+2017/05/02 22:39:41 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: remove /Users/cedricwu/Workspace/Go/src/CedAppDeliver/public/ipa/BoINe.ipa.png: no such file or directory
+
+2017/05/02 22:40:28 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-02 22:40:28
+
+2017/05/02 22:40:29 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/05/02 22:40:29 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：8.2.2 | ShortVersion：8.2.2 | 创建时间：2017-05-02 22:40:29 | 修改时间：2017-05-02 22:40:29
+
+2017/05/02 22:40:45 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/05/02 22:40:45 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：8.2.2 | ShortVersion：8.2.2 | 创建时间：2017-05-02 22:40:45 | 修改时间：2017-05-02 22:40:45
+
+2017/05/02 22:41:45 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-02 22:41:45
+
+2017/05/02 22:41:46 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/05/02 22:41:46 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：8.2.2 | ShortVersion：8.2.2 | 创建时间：2017-05-02 22:41:46 | 修改时间：2017-05-02 22:41:46
+
+2017/05/02 22:46:58 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-02 22:46:58
+
+2017/05/02 22:47:06 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/05/02 22:47:06 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：8.2.2 | ShortVersion：8.2.2 | 创建时间：2017-05-02 22:47:06 | 修改时间：2017-05-02 22:47:06
+
+2017/05/02 23:20:24 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-02 23:20:24
+
+2017/05/11 23:15:15 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-11 23:15:15
+
+2017/05/11 23:15:35 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: zlib: invalid header
+
+2017/05/11 23:15:35 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: zlib: invalid header
+
+2017/05/11 23:30:33 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-11 23:30:33
+
+2017/05/11 23:31:18 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/05/11 23:31:18 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名： | BundleID： | Version： | ShortVersion： | 创建时间：2017-05-11 23:31:18 | 修改时间：2017-05-11 23:31:18
+
+2017/05/11 23:34:50 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-11 23:34:50
+
+2017/05/11 23:34:51 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/05/11 23:34:51 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：房多多_企业版 | BundleID：ershoufanglzg.fangdd.com | Version：8.1.1 | ShortVersion：8.1.1 | 创建时间：2017-05-11 23:34:51 | 修改时间：2017-05-11 23:34:51
+
+2017/05/11 23:35:17 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-11 23:35:17
+
+2017/05/11 23:35:27 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/05/11 23:35:27 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：房多多_企业版 | BundleID：ershoufanglzg.fangdd.com | Version：8.1.1 | ShortVersion：8.1.1 | 创建时间：2017-05-11 23:35:27 | 修改时间：2017-05-11 23:35:27
+
+2017/05/11 23:38:51 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-11 23:38:51
+
+2017/05/11 23:38:52 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: zlib: invalid header
+
+2017/05/11 23:38:52 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/base.go:33: zlib: invalid header
+
+2017/05/12 00:00:01 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-12 00:00:01
+
+2017/05/12 00:00:11 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/05/12 00:00:11 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：房多多_企业版 | BundleID：ershoufanglzg.fangdd.com | Version：8.1.1 | ShortVersion：8.1.1 | 创建时间：2017-05-12 00:00:11 | 修改时间：2017-05-12 00:00:11
+
+2017/05/12 00:01:17 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-12 00:01:17
+
+2017/05/12 00:01:26 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/05/12 00:01:26 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：房多多_企业版 | BundleID：ershoufanglzg.fangdd.com | Version：8.1.1 | ShortVersion：8.1.1 | 创建时间：2017-05-12 00:01:26 | 修改时间：2017-05-12 00:01:26
+
+2017/05/12 16:42:45 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-12 16:42:45
+
+2017/05/12 16:43:35 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-05-12 16:43:35
+
+2017/05/12 16:44:09 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/05/12 16:44:09 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：8.4.0 | ShortVersion：8.4.0 | 创建时间：2017-05-12 16:44:09 | 修改时间：2017-05-12 16:44:09

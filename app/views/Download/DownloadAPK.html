@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>App Download</title>
+
+    <!-- Bootstrap -->
+    <link href="/public/css/bootstrap-3.3.6.min.css" rel="stylesheet">
+
+    <style type="text/css">
+        p {
+            margin-left: 40px
+        }
+        
+        h1 {
+            margin-left: 20px
+        }
+        
+        #qrcodeCanvas {
+            float: right;
+            margin-right: 20%
+        }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1>Welcome</h1>
+        <p>
+            <div id="qrcodeCanvas"></div>
+            <p>名称: {{ .model.DisplayName }}({{ .model.PackageName }}) v{{ .model.Version }}</p>
+            <p>上传时间: {{ .model.CreatedAt | toTimeString }}</p>
+        </p>
+
+        <p><a id="whole_download_url" href="{{ .params.downloadURL }}" class="btn btn-primary btn-lg" role="button">一键安装</a></p>
+        <p><a href="/{{ .params.cerAddr }}" class="btn btn-primary btn-lg" role="button">一键安装证书</a></p>
+    </div>
+
+    <div class="jumbotron">
+        {{if .model.IsMilestoneVersion}}
+        <input type="checkbox" id="my-checkbox" checked> 是否保留此版本 {{else}}
+        <input type="checkbox" id="my-checkbox" unchecked> 是否保留此版本 {{end}}
+        <div class="form-group">
+            <label for="comment">Comment:</label>
+            <textarea class="form-control" rows="5" id="comment">{{.model.Comment}}</textarea>
+        </div>
+        <button id="save" type="button" class="btn btn-primary">保存</button>
+    </div>
+
+    <script type="text/javascript" src="/public/js/bootstrap-3.3.6.min.js"></script>
+    <script type="text/javascript" src="/public/js/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="/public/js/jquery.qrcode.min.js"></script>
+    <script language="javascript" defer="defer">
+        jQuery('#qrcodeCanvas').qrcode({
+            text: window.location.href
+        });
+    </script>
+
+    <script>
+        $("#save").click(function() {
+            var json = new Object();
+            var checked = $('#my-checkbox').is(':checked');
+
+            json["milestone"] = checked;
+            json["appID"] = $("#randomID").val();
+            json["comment"] = $("#comment").val()
+
+            $.ajax({
+                type: 'POST',
+                url: "app_config",
+                data: {
+                    "data": JSON.stringify(json)
+                },
+                success: function() {
+                    alert("保存成功");
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $("#my-checkbox").bootstrapSwitch();
+    </script>
+    <!--<script language="javascript" defer="defer">
+    var oldURL = $("#whole_download_url").attr("href");
+    var newURL = oldURL.replace(/%2f/g,"/")
+    newURL = newURL.replace(/%3a/g,":")
+    alert(newURL);
+    $("#whole_download_url").attr("href", newURL);
+    </script> -->
+</body>
+
+</html>

@@ -286,3 +286,11 @@
 2017/05/12 16:44:09 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
 
 2017/05/12 16:44:09 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：8.4.0 | ShortVersion：8.4.0 | 创建时间：2017-05-12 16:44:09 | 修改时间：2017-05-12 16:44:09
+
+2017/07/11 16:05:11 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-07-11 16:05:11
+
+2017/07/11 16:05:58 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:136: IPA Web上传
+
+2017/07/11 16:05:58 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/upload.go:137: 应用名：经纪-企业版 | BundleID：com.fangdd.jingjiren | Version：9.0.0 | ShortVersion：9.0.0 | 创建时间：2017-07-11 16:05:58 | 修改时间：2017-07-11 16:05:58
+
+2017/07/11 16:07:51 /Users/cedricwu/Workspace/Go/src/CedAppDeliver/app/controllers/init.go:17: CedAppDeliver start at 2017-07-11 16:07:51

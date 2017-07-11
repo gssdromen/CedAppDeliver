@@ -40,7 +40,9 @@ func (c Download) Index() revel.Result {
 
 		params["cerAddr"] = "public/myCer/WuYinJun-CA.crt"
 		downloadURL := "https://" + utils.GetLocalIP() + "/" + ipa.RelativePlistURL
+		ipaDownloadURL := ipa.RelativeIPAURL
 		params["downloadURL"] = downloadURL
+		params["ipaDownloadURL"] = ipaDownloadURL
 
 		c.RenderArgs["model"] = ipa
 		c.RenderArgs["params"] = params
